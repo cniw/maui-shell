@@ -42,6 +42,8 @@ DEBIAN_FRONTEND=noninteractive apt -qq -yy install --no-install-recommends \
 	libkf5config-dev \
 	libkf5coreaddons-dev \
 	libkf5i18n-dev \
+	libkf5i18n-dev \
+	libkf5idletime-dev \
 	libkf5kio-dev \
 	libkf5notifications-dev \
 	libkf5service-dev \
