@@ -39,17 +39,27 @@ DEBIAN_FRONTEND=noninteractive apt -qq update
 ### Maui Shell needs ECM > 5.70
 
 DEBIAN_FRONTEND=noninteractive apt -qq -yy install --no-install-recommends \
+	libkf5activities-dev \
+	libkf5activitiesstats-dev \
 	libkf5config-dev \
 	libkf5coreaddons-dev \
+	libkf5crash-dev \
+	libkf5declarative-dev \
+	libkf5doctools-dev \
 	libkf5i18n-dev \
 	libkf5idletime-dev \
 	libkf5kio-dev \
 	libkf5notifications-dev \
+	libkf5notifyconfig-dev \
+	libkf5people-dev \
+	libkf5runner-dev \
 	libkf5service-dev \
+	libkf5su-dev \
+	libkf5wallet-dev \
 	libqt5svg5-dev \
 	libqt5waylandcompositor5-dev \
-	mauikit-git \
 	mauikit-filebrowsing-git \
+	mauikit-git \
 	qtbase5-dev \
 	qtdeclarative5-dev \
 	qtquickcontrols2-5-dev
@@ -99,7 +109,7 @@ checkinstall -D -y \
 	--install=no \
 	--fstrans=yes \
 	--pkgname=maui-shell-git \
-	--pkgversion=2.1.1+git+1 \
+	--pkgversion=2.1.1+git+2 \
 	--pkgarch=amd64 \
 	--pkgrelease="1" \
 	--pkglicense=LGPL-3 \
