@@ -41,7 +41,7 @@ DEBIAN_FRONTEND=noninteractive apt -qq update
 DEBIAN_FRONTEND=noninteractive apt -qq -yy install --no-install-recommends \
 	kinit-dev \
 	kded5-dev \
-	libpolkit-agent-1-0 \
+	libpolkit-agent-1-dev \
 	libkf5activities-dev \
 	libkf5activitiesstats-dev \
 	libkf5config-dev \
