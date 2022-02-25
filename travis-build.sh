@@ -66,6 +66,7 @@ DEBIAN_FRONTEND=noninteractive apt -qq -yy install --no-install-recommends \
 	libkf5wallet-dev \
 	libkf5wayland-dev \
 	libphonon4qt5-dev \
+	libpolkit-qt5-1-dev \
 	libqt5svg5-dev \
 	libqt5waylandcompositor5-dev \
 	mauikit-filebrowsing-git \
@@ -128,7 +129,7 @@ checkinstall -D -y \
 	--pakdir=../.. \
 	--maintainer=uri_herrera@nxos.org \
 	--provides=maui-shell-git \
-	--requires="kinit,kded5,libc6,libpolkit-agent-1-0,libkf5activities5,libkf5activitiesstats5,libkf5configcore5,libkf5coreaddons5,libkf5crash5,libkf5declarative5,libkf5doctools5,libkf5i18n5,libkf5idletime5,libkf5itemmodels5,libkf5kiocore5,libkf5notifications5,libkf5notifyconfig5,libkf5people5,libkf5prison5,libkf5runner5,libkf5service5,libkf5su5,libkf5syntaxhighlighting,libkf5texteditor,libkf5unitconversion5,libkf5wallet5,libkf5wayland5,libphonon4qt5-4,libqt5core5a,libqt5gui5,libqt5qml5,libqt5svg5,libqt5waylandcompositor5,libqt5widgets5,libstdc++6,mauikit-filebrowsing-git \(\>= 2.1.1+git\),mauikit-git \(\>= 2.1.1+git\),qml-module-qt-labs-calendar,qml-module-qt-labs-platform" \
+	--requires="kinit,kded5,libc6,libpolkit-agent-1-0,libkf5activities5,libkf5activitiesstats5,libkf5configcore5,libkf5coreaddons5,libkf5crash5,libkf5declarative5,libkf5doctools5,libkf5i18n5,libkf5idletime5,libkf5itemmodels5,libkf5kiocore5,libkf5notifications5,libkf5notifyconfig5,libkf5people5,libkf5prison5,libkf5runner5,libkf5service5,libkf5su5,libkf5syntaxhighlighting,libkf5texteditor,libkf5unitconversion5,libkf5wallet5,libkf5wayland5,libphonon4qt5-4,libpolkit-qt5-1-1,libqt5core5a,libqt5gui5,libqt5qml5,libqt5svg5,libqt5waylandcompositor5,libqt5widgets5,libstdc++6,mauikit-filebrowsing-git \(\>= 2.1.1+git\),mauikit-git \(\>= 2.1.1+git\),qml-module-qt-labs-calendar,qml-module-qt-labs-platform" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
